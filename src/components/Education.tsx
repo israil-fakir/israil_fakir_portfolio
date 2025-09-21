@@ -42,11 +42,12 @@ const Education = () => {
         {/* Section title */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            {/* <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent"> */}
+            <span className="text-blue-400"> 
               Education & Achievements
             </span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto mb-16"></div>
+          <div className="w-24 h-1 bg-blue-400 mx-auto mb-16"></div>
         </div>
 
         {/* Main content - two columns */}

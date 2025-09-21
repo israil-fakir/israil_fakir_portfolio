@@ -5,14 +5,15 @@ const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative py-16">
       {/* Simple background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20"></div>
+      <div className="absolute inset-0 bg-blue-900/5"></div>
+
       
       {/* Main content container */}
       <div className="relative max-w-6xl mx-auto px-6 text-center">
         <div className="mb-8">
           {/* Name with gradient text */}
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="text-blue-400">
               Md. Israil Fakir  
             </span>
           </h1>

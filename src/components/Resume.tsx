@@ -15,11 +15,11 @@ const Resume = () => {
         {/* Section title */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="text-blue-400">
               Download Resume
             </span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-blue-400 mx-auto mb-8"></div>
           <p className="text-center text-slate-400 mb-16 max-w-2xl mx-auto">
             Get a comprehensive overview of my professional experience, skills, and achievements in a downloadable format.
           </p>
@@ -55,7 +55,7 @@ const Resume = () => {
 
             <button
               onClick={handleDownload}
-              className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-colors"
+              className="inline-flex items-center px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
             >
               <Download className="w-6 h-6 mr-3" />
               Download Resume
@@ -68,7 +68,7 @@ const Resume = () => {
         </div>
 
         {/* Additional info section */}
-        <div className="mt-12">
+        {/* <div className="mt-12">
           <div className="grid md:grid-cols-3 gap-6 text-center">
             <div className="bg-slate-800/30 p-6 rounded-lg border border-slate-700/30">
               <h4 className="text-lg font-semibold text-white mb-2">Professional Experience</h4>
@@ -83,7 +83,7 @@ const Resume = () => {
               <p className="text-slate-400 text-sm">Academic background and professional certifications</p>
             </div>
           </div>
-        </div>       
+        </div>        */}
     </section>
   );
 };

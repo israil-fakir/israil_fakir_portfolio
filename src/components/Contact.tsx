@@ -69,11 +69,11 @@ const Contact = () => {
         {/* Section title */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="text-blue-400">
               Get In Touch
             </span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-blue-400 mx-auto mb-8"></div>
           <p className="text-center text-slate-400 mb-16 max-w-2xl mx-auto">
             I'm always interested in discussing new opportunities, collaborations, or just having a chat about technology. 
             Feel free to reach out!
@@ -180,7 +180,7 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="w-full inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-colors"
+                className="inline-flex items-center px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
               >
                 <Send className="w-5 h-5 mr-2" />
                 Send Message

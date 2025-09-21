@@ -5,7 +5,7 @@ const Resume = () => {
 
   const handleDownload = () => {
     // Google Drive link
-    const resumeLink = "https://drive.google.com/file/d/1ezbU3mMqVb0nTZdbYcc6QFzFMwzTJeeh/view?usp=drive_link";
+    const resumeLink = "https://drive.google.com/file/d/1lyZlnH1yEE24UzpexmjkzMfUIj-bMXx7/view?usp=drive_link";
     window.open(resumeLink, '_blank');
   };
 

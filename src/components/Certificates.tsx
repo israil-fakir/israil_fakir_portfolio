@@ -16,10 +16,48 @@ const Certificates = () => {
     "System Administration": "bg-red-600/20 text-red-400",
     "Artificial Intelligence": "bg-indigo-600/20 text-indigo-400",
     "Version Control": "bg-green-600/20 text-green-400",
-    "Cybersecurity": "bg-yellow-600/20 text-yellow-400"
+    "Cybersecurity": "bg-yellow-600/20 text-yellow-400",
+    "Data Science": "bg-indigo-600/20 text-indigo-400",
+    "Web Development" :  "bg-cyan-600/20 text-cyan-400"
   };
 
   const certificates = [
+    {
+      title: "Full Stack Development with MERN",
+      issuer: "Grameenphone Academy",
+      date: "2025",
+      description: "Completed a hands-on MERN stack program by Grameenphone Academy in collaboration with CodersTrust, focusing on building responsive full-stack web applications using MongoDB, Express.js, React, and Node.js.",
+      link: "https://www.grameenphone.academy/cert/299f0ba21f35",
+      icon: <Shield className="w-6 h-6" />,
+      category: "Web Development"
+    }, 
+    {
+      title: "Certificate of Excellence in AI & ML Fundamentals",
+      issuer: "Grameenphone Academy",
+      date: "2025",
+      description: "Recognized for completing the AI & ML Fundamentals course, covering core concepts, ethical aspects, and practical applications through project-based learning.",
+      link: "https://www.grameenphone.academy/cert/509fa8b707fa",
+      icon: <Shield className="w-6 h-6" />,
+      category: "Artificial Intelligence"
+    },
+    {
+      title: "Artificial Intelligence Fundamentals",
+      issuer: "IBM SkillsBuild",
+      date: "2025",
+      description: "Validated foundational knowledge of AI concepts, including machine learning, neural networks, and ethical use cases across industries.",
+      link: "https://www.credly.com/org/ibm-skillsbuild/badge/artificial-intelligence-fundamentals",
+      icon: <Shield className="w-6 h-6" />,
+      category: "Artificial Intelligence"
+    },
+    {
+      title: "Data Science Essentials With Python",
+      issuer: "Cisco",
+      date: "2025",
+      description: "Gained foundational skills in data science using Python, covering data analysis, visualization, and basic machine learning through hands-on labs.",
+      link: "https://www.credly.com/badges/a6396aa4-a036-433b-887a-68b5b35788e4",
+      icon: <Shield className="w-6 h-6" />,
+      category: "AI / ML / Data Science"
+    },
     {
       title: "Red Hat System Administration Certificate I (RH124 - RHA) - Ver. 9.3",
       issuer: "Red Hat",

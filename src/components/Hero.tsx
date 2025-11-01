@@ -20,13 +20,13 @@ const Hero = () => {
           
           {/* Job title */}
           <h2 className="text-xl md:text-2xl text-slate-300 font-medium mb-6">
-            Frontend Developer
+            MERN Stack Developer
           </h2>
           
           {/* Description */}
           <p className="text-lg text-slate-400 max-w-3xl mx-auto">
             Computer Science and Engineering student passionate about creating beautiful, 
-            functional web applications using modern technologies like React and TailwindCSS.
+            functional web applications using modern technologies like React, TailwindCSS, NodeJS, ExpreesJS, and MongoDB.
           </p>
         </div>
 
@@ -63,7 +63,10 @@ const Hero = () => {
           </div>
           <div className="flex items-center gap-2">
             <MapPin className="w-4 h-4" />
-            <span>Narsingdi, Dhaka</span>
+            <span>Address: Narsingdi, Dhaka</span>
+           <br />
+           {/* <MapPin className="w-4 h-4" />
+            <span>Permanent Address: Uttara, Dhaka </span> */}
           </div>
         </div>
 

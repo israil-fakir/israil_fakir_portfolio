@@ -8,8 +8,8 @@ const Education = () => {
       degree: "Under Graduation",
       field: "Computer Science and Engineering",
       institution: "Green University of Bangladesh",
-      period: "2022 - Present",
-      gpa: "CGPA: 3.30",
+      period: "2022 - Early in 2026",
+      // gpa: "CGPA: 3.30",
       icon: <GraduationCap className="w-6 h-6" />
     },
     {
@@ -17,7 +17,7 @@ const Education = () => {
       field: "Science",
       institution: "Narsingdi Public College",
       period: "2019 - 2020",
-      gpa: "GPA: 4.33",
+      // gpa: "GPA: 4.33",
       icon: <Award className="w-6 h-6" />
     }
   ];
@@ -77,9 +77,9 @@ const Education = () => {
                         <Calendar className="w-4 h-4 mr-2" />
                         {edu.period}
                       </div>
-                      <span className="px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm">
+                      {/* <span className="px-3 py-1 bg-green-600/20 text-green-400 rounded-full text-sm">
                         {edu.gpa}
-                      </span>
+                      </span> */}
                     </div>
                   </div>
                   <p className="text-slate-300">{edu.institution}</p>

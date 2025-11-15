@@ -29,6 +29,7 @@ const Education = () => {
   ];
 
   const activities = [
+    "HackTheAI 2025 Finalist (powered by SmythOS) – Top 50 out of 242 teams",
     "Blood Donation",
     "Class Representative (CR)",
     "Social Works",
@@ -91,7 +92,7 @@ const Education = () => {
           {/* Achievements & Activities */}
           <div className="space-y-8">
             {/* Achievements */}
-            <div>
+            {/* <div>
               <h3 className="text-2xl font-bold mb-6 text-white flex items-center">
                 <Trophy className="w-6 h-6 mr-3 text-blue-400" />
                 Achievements
@@ -106,7 +107,7 @@ const Education = () => {
                   ))}
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             {/* Extracurricular Activities */}
             <div>

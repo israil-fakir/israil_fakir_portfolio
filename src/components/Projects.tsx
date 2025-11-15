@@ -4,6 +4,19 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
 
   const projects = [
+
+    {
+      title: "Class Assistant System",
+      description: "A web-based class management tool for organizing student data, tracking attendance, and managing assignments with a clean and responsive UI.",
+      technologies: ["TailwindCSS", "React.js", "Python", "TypeScript", "Flask", "Face Recognition","OpenCV ", "SQL"],
+      "features": [
+      "AI-powered attendance automation using facial recognition.",
+      "Frontend developed in React.js for user-friendly interaction.",
+      "Backend API (Flask) handles recognition logic and database management (SQL)."
+    ],
+      sourceLink: "https://github.com/israil-fakir/ClassAssistant",
+      image: "https://image2url.com/images/1763212401350-b2dea8e6-cdd6-44a4-af47-c66f72931518.png"
+    },
     {
       title: "Green Chats Application",
       description: "A real-time chat application with modern UI design, supporting image and emoji sharing with attractive user interface.",
@@ -126,7 +139,7 @@ const Projects = () => {
       image: "https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg?auto=compress&cs=tinysrgb&w=800"
     }
 
-    
+
   ];
 
   return (
@@ -157,7 +170,7 @@ const Projects = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
-                
+
                 {/* Action buttons */}
                 <div className="absolute top-4 right-4 flex space-x-2">
                   {project.liveLink && (

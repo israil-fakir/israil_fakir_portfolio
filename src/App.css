@@ -1,6 +1,6 @@
-html {
-  scroll-behavior: smooth;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 
 body {
   margin: 0;
@@ -10,7 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #0f172a;
-  color: #f8fafc;
+  color: #ffffff;
   line-height: 1.6;
 }
 
@@ -58,3 +58,4 @@ section {
 ::-webkit-scrollbar-thumb:hover {
   background: #2563eb;
 }
+

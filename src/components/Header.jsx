@@ -53,7 +53,7 @@ const Header = () => {
         isScrolled ? 'bg-slate-900/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
       }`}
     >
-      <nav className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 text-[18px]">
         <div className="flex justify-between items-center h-16">
           {/* Logo - scroll to home, URL stays "/" */}
           <Link

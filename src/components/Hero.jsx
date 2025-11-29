@@ -1,5 +1,7 @@
 import { ArrowDown, Download, Github, Linkedin, Mail, MapPin, Phone, Youtube, Facebook, Instagram, X } from 'lucide-react';
-import profileImg from './image/profile.png';
+// import profileImg from './image/';
+import profileImg from '../image/profile.png';
+// src\image\Adobe Express - file.png
 // Hero component - the main landing section
 const Hero = () => {
   return (

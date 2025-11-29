@@ -1,5 +1,5 @@
 import { ArrowDown, Download, Github, Linkedin, Mail, MapPin, Phone, Youtube, Facebook, Instagram, X } from 'lucide-react';
-
+import profileImg from './image/profile.png';
 // Hero component - the main landing section
 const Hero = () => {
   return (
@@ -108,11 +108,12 @@ const Hero = () => {
 
         {/* Right side: image - hidden on mobile, shown on desktop */}
         <div className="hidden md:flex flex-1 justify-center md:justify-end items-center">
-          <img
+          <img src={profileImg} alt="Profile" className="w-64 h-170 md:w-80 lg:w-96 object-contain"/>
+          {/* <img
             src="src/image/Adobe Express - file.png"
             alt="Profile"
             className="w-64 h-170 md:w-80 lg:w-96 object-contain"
-          />
+          /> */}
         </div>
       </div>
     </section>

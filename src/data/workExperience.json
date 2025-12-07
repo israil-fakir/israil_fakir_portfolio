@@ -1,0 +1,18 @@
+[
+  {
+    "company": "Zensoft Lab",
+    "position": "Frontend Developer (Internship)",
+    "period": "Oct 2025 - Present",
+    "location": "Dhaka, Bangladesh",
+    "description": "Working as a Frontend Developer, contributing to modern web applications using cutting-edge technologies.",
+    "technologies": ["React", "TypeScript", "TailwindCSS", "Next.js", "JavaScript"],
+    "achievements": [
+      "Developing responsive and interactive user interfaces",
+      "Collaborating with cross-functional teams",
+      "Implementing modern UI/UX designs",
+      "Optimizing application performance"
+    ],
+    "companyUrl": "https://zensoftlab.com/",
+    "icon": "Code"
+  }
+]

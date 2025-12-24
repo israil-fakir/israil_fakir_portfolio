@@ -24,17 +24,11 @@ const Hero = () => {
             </h2>
 
             {/* Image for mobile only - shown after title */}
-            <div className="md:hidden flex justify-center mb-8">
+            <div className="md:hidden flex justify-center mb-8">             
               
-              {/* <img
-                src="src/image/Adobe Express - file.png"
-                alt="Profile"
-                className="w-48 h-48 object-contain"
-              /> */}
               <img src={profileImg} alt="Profile"  className="w-48 h-48 object-contain"/>
               
             </div>
-
             <p className="text-lg text-slate-400 max-w-3xl mx-auto md:mx-0 mb-8">
               Computer Science and Engineering student passionate about creating beautiful, 
               functional web applications using modern technologies like React, TailwindCSS, NodeJS, ExpressJS, and MongoDB.

@@ -7,7 +7,7 @@
       "TailwindCSS",
       "TypeScript",
       "Python",
-      "Flask",
+      "Django REST Framework",
       "SQL",
       "Stripe API",
       "REST API"
@@ -16,7 +16,7 @@
       "Responsive furniture catalog with category-based browsing.",
       "Secure shopping cart and checkout system integrated with Stripe.",
       "Admin dashboard for managing products, orders, and customer data.",
-      "Backend API (Flask) for handling business logic and database operations."
+      "Backend API (Django REST Framework) for handling business logic and database operations."
     ],
     "liveLink": "https://soheliafurniture.com/",
     "image": "https://i.postimg.cc/2j9rtL5h/home-page.png"
